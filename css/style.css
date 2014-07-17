@@ -62,41 +62,66 @@
   }
 }
 
-/* line 13, ../sass/style.scss */
+/* line 56, icons/*.png */
+.icons-sprite, .icons-fb, .icons-tw {
+  background-image: url('../img_c/icons-se747339bde.png');
+  background-repeat: no-repeat;
+}
+
+/* line 84, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fb {
+  background-position: 0 0;
+  height: 22px;
+  width: 22px;
+}
+
+/* line 84, ../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tw {
+  background-position: 0 -22px;
+  height: 22px;
+  width: 22px;
+}
+
+/* line 17, ../sass/style.scss */
+.icon {
+  display: inline-block;
+}
+
+/* line 21, ../sass/style.scss */
 html {
   font-size: 100%;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 h1, h2, h3 {
   color: #b95835;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .logo {
   color: #7a3e48;
   font-size: 3.125rem;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .featured-project {
   font-size: 1.125rem;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .categories {
   list-style-type: none;
   padding-left: 0;
 }
 @media screen and (max-width: 767px) {
-  /* line 43, ../sass/style.scss */
+  /* line 51, ../sass/style.scss */
   .categories li {
     background: #e18942;
     margin-bottom: 10px;
@@ -104,14 +129,14 @@ h1, h2, h3 {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 959px) {
-  /* line 43, ../sass/style.scss */
+  /* line 51, ../sass/style.scss */
   .categories li {
     float: left;
     padding-right: 1.25rem;
   }
 }
 
-/* line 57, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .button {
   display: inline-block;
   width: 8.75rem;
@@ -126,27 +151,42 @@ h1, h2, h3 {
   border-radius: 0.3125rem;
 }
 
-/* line 69, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 header nav ul {
   float: right;
 }
 
-/* line 74, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 79, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 footer {
   background: #dadada;
 }
+/* line 90, ../sass/style.scss */
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+/* line 94, ../sass/style.scss */
+footer ul li {
+  margin-bottom: 0.3125rem;
+}
+/* line 96, ../sass/style.scss */
+footer ul li span {
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 22px;
+}
 
-/* line 83, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .right {
   float: right;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 img {
   max-width: 100%;
 }

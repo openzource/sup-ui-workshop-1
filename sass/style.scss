@@ -4,11 +4,19 @@
 
 @import 'compass';
 @import 'compass/css3';
-
+@import 'compass/utilities/sprites';
 
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
 
+// Generate CSS sprites:
+$icons-sprite-dimensions: true;
+@import "icons/*.png";
+@include all-icons-sprites;
+
+.icon {
+	display: inline-block;
+}
 
 html {
 	font-size: 100%;
@@ -78,6 +86,20 @@ header nav ul {
 
 footer {
 	background: $color-footer;
+
+	ul {
+		list-style-type: none;	
+		padding-left: 0;		
+
+		li {
+			margin-bottom: rem(5px);
+			span {
+				vertical-align: middle;
+				display: inline-block;
+				line-height: 22px;
+			}
+		}
+	}
 }
 
 .right {
