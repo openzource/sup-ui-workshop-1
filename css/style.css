@@ -55,6 +55,39 @@ h1, h2, h3 {
 }
 
 
+@media screen and (max-width: 959px) {
+	.medium-12 {
+		width: 100%;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.small-6 {
+		width: 50%;
+	}
+}
+
+
+.categories {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.categories li {
+		background: #E18942;
+		margin-bottom: 10px;
+		padding: 10px;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.categories li {
+		float: left;
+		padding-right: 20px;
+	}
+}
+
 header nav ul {
 	float: right;
 }
@@ -71,4 +104,9 @@ footer {
 
 .right {
 	float: right;
+}
+
+
+img {
+	max-width: 100%;
 }
