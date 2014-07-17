@@ -1,0 +1,37 @@
+.font-headings {
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+}
+.font-normal {
+	font-family: 'Raleway', sans-serif;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@mixin respond-to($size) {
+	$mobile-tablet: 768px;
+	$tablet-normal: 960px;
+
+	@if $size == 'mobile' {
+		@media screen and (max-width: $mobile-tablet - 1) {
+			@content;
+		}
+	}
+	@if $size == 'tablet' {
+		@media screen and (min-width: $mobile-tablet) and (max-width: $tablet-normal - 1) {
+			@content;	
+		}
+		
+	}
+	@if $size == 'normal' {
+		@media screen and (min-width: $tablet-normal) {
+			@content;	
+		}
+	}
+}
