@@ -25,11 +25,11 @@ h1, h2, h3 {
 .logo {
 	color: $color-logo;
 	@extend .font-headings;
-	font-size: 50px;
+	font-size: em(50px);
 }
 
 .featured-project {
-	font-size: 18px;
+	font-size: em(18px);
 }
 
 .categories {
@@ -45,19 +45,19 @@ h1, h2, h3 {
 
 		@include respond-to(tablet) {
 			float: left;
-			padding-right: 20px;
+			padding-right: em(20px);
 		}
 	}
 }
 
 .button {
 	display: inline-block;
-	width: 140px;
+	width: em(140px);
 	text-align: center;
 	color: lighten($color-secondary, 90%);
 	background: $color-secondary;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: em(18px);
+	line-height: em(30px);
 	border: 1px solid darken($color-secondary, 15%);
 }
 

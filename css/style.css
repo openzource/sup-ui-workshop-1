@@ -82,12 +82,12 @@ h1, h2, h3 {
 /* line 25, ../sass/style.scss */
 .logo {
   color: #7a3e48;
-  font-size: 50px;
+  font-size: 3.125em;
 }
 
 /* line 31, ../sass/style.scss */
 .featured-project {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 /* line 35, ../sass/style.scss */
@@ -107,19 +107,19 @@ h1, h2, h3 {
   /* line 39, ../sass/style.scss */
   .categories li {
     float: left;
-    padding-right: 20px;
+    padding-right: 1.25em;
   }
 }
 
 /* line 53, ../sass/style.scss */
 .button {
   display: inline-block;
-  width: 140px;
+  width: 8.75em;
   text-align: center;
   color: white;
   background: #e18942;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125em;
+  line-height: 1.875em;
   border: 1px solid #b9631d;
 }
 

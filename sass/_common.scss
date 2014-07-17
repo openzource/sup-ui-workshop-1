@@ -37,4 +37,13 @@
 }
 
 
-
+@function em($px, $base: $em-base) {
+	$b: $base;
+	@if unit($base) == 'em' {
+		$b: ($base / 1em) * $em-base;
+	}
+	@if unit($base) == 'rem' {
+		$b: ($base / 1rem) * $em-base;
+	}
+	@return ($px / ($b)) * 1em;
+}
