@@ -25,11 +25,11 @@ h1, h2, h3 {
 .logo {
 	color: $color-logo;
 	@extend .font-headings;
-	font-size: em(50px);
+	font-size: rem(50px);
 }
 
 .featured-project {
-	font-size: em(18px);
+	font-size: rem(18px);
 }
 
 .categories {
@@ -45,19 +45,19 @@ h1, h2, h3 {
 
 		@include respond-to(tablet) {
 			float: left;
-			padding-right: em(20px);
+			padding-right: rem(20px);
 		}
 	}
 }
 
 .button {
 	display: inline-block;
-	width: em(140px);
+	width: rem(140px);
 	text-align: center;
 	color: lighten($color-secondary, 90%);
 	background: $color-secondary;
-	font-size: em(18px);
-	line-height: em(30px);
+	font-size: rem(18px);
+	line-height: rem(30px);
 	border: 1px solid darken($color-secondary, 15%);
 }
 
