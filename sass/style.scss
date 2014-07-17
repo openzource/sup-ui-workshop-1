@@ -1,0 +1,123 @@
+$color-logo: #7A3E48;
+$color-primary: #B95835;
+$color-secondary: #E18942;
+$color-footer: #dadada;
+
+
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+
+.font-headings {
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+}
+.font-normal {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+body {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	@extend .font-normal;	
+}
+
+h1, h2, h3 {
+	@extend .font-headings;
+	color: $color-primary;
+}
+
+.logo {
+	color: $color-logo;
+	@extend .font-headings;
+	font-size: 50px;
+}
+
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;	
+	box-sizing: border-box;
+}
+
+.column-9 {
+	@extend .column;
+	width: 75%;	
+}
+
+.column-3 {
+	@extend .column;
+	width: 25%;
+}
+
+.column-6 {
+	@extend .column;
+	width: 50%;
+}
+
+
+@media screen and (max-width: 959px) {
+	.medium-12 {
+		width: 100%;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.small-6 {
+		width: 50%;
+	}
+}
+
+
+.categories {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.categories li {
+		background: $color-secondary;
+		margin-bottom: 10px;
+		padding: 10px;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	.categories li {
+		float: left;
+		padding-right: 20px;
+	}
+}
+
+header nav ul {
+	float: right;
+}
+
+
+.clear {
+	clear: both;
+}
+
+
+footer {
+	background: $color-footer;
+}
+
+.right {
+	float: right;
+}
+
+
+img {
+	max-width: 100%;
+}
