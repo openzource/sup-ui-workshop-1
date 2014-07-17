@@ -1,0 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+
+body {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Bitter', serif;	
+	font-weight: 700;
+	color: #B95835;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: 700;
+	color: #7A3E48;
+	font-family: 'Bitter', serif;	
+}
