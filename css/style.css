@@ -20,3 +20,49 @@ h1, h2, h3 {
 	color: #7A3E48;
 	font-family: 'Bitter', serif;	
 }
+
+
+
+header .logo {
+	float: left;
+}
+
+header nav {
+	float: right;
+}
+
+.featured-project article {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.featured-project aside {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+
+.clear {
+	clear: both;
+}
+
+
+.popular-projects .project {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+footer .left-column {
+	float: left;
+}
+
+footer .middle-column {
+	float: left;
+}
+
+footer .right-column {
+	float: right;
+}
