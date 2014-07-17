@@ -22,47 +22,53 @@ h1, h2, h3 {
 }
 
 
-
-header .logo {
-	float: left;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-header nav {
-	float: right;
-}
 
-.featured-project article {
+
+.column-9 {
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
+	width: 75%;	
+	box-sizing: border-box;
 }
 
-.featured-project aside {
+.column-3 {
 	float: left;
 	padding-left: 10px;
-	padding-right: 10px;	
+	padding-right: 10px;
+	width: 25%;
+	box-sizing: border-box;
 }
+
+.column-6 {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+
+header nav ul {
+	float: right;
+}
+
 
 .clear {
 	clear: both;
 }
 
 
-.popular-projects .project {
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;
+footer {
+	background: #dadada;
 }
 
-
-footer .left-column {
-	float: left;
-}
-
-footer .middle-column {
-	float: left;
-}
-
-footer .right-column {
+.right {
 	float: right;
 }
