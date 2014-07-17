@@ -2,6 +2,10 @@
 @import '_common';
 @import '_grid';
 
+@import 'compass';
+@import 'compass/css3';
+
+
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
 
@@ -59,6 +63,7 @@ h1, h2, h3 {
 	font-size: rem(18px);
 	line-height: rem(30px);
 	border: 1px solid darken($color-secondary, 15%);
+	@include border-radius(rem(5px));
 }
 
 header nav ul {
