@@ -14,12 +14,12 @@ git clone https://github.com/rainopik/sup-ui-workshop-1.git
 
 Update to first version to start a step-by-step walkthrough
 ```sh
-git update tags/v01 
+git checkout tags/v01 
 ```
 
 Move to the next version (and so on...):
 ```sh
-git update tags/v02
+git checkout tags/v02
 ...
 ```
 
